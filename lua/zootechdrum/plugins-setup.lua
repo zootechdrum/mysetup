@@ -88,6 +88,8 @@ return packer.startup(function(use)
 
   -- highlight syntax
   use({ "RREthy/vim-illuminate" })
+  --undoTree
+  use({ "mbbill/undotree" })
   -- treesitter configuration
   use({
     "nvim-treesitter/nvim-treesitter",
